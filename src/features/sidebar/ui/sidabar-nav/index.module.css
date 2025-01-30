@@ -1,0 +1,23 @@
+.list--hidden {
+  opacity: 0;
+}
+
+.list {
+  font-family: var(--font-base);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-dur);
+}
+
+.link {
+  color: var(--color-base);
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.link--active {
+  background-color: var(--color-purple-primary);
+  color: var(--color-dark);
+}
