@@ -18,5 +18,5 @@ export const navigation: INavigation[] = [
     id: 2,
     path: "/today",
     text: "Сегодня"
-  }
+  },
 ]
