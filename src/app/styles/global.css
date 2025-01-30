@@ -10,12 +10,20 @@
   --font-base: "Poppins", sans-serif;
 
   --transition-dur: 0.3s;
+  --padding-x: 20px;
+  --container-width: 1440px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  max-width: calc(var(--container-width) + (var(--padding-x) * 2));
+  margin-inline: auto;
+  padding-inline: var(--padding-x);
 }
 
 li {
@@ -47,4 +55,12 @@ body {
   height: 100%;
   display: flex;
   gap: 20px;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  height: 100%;
 }
